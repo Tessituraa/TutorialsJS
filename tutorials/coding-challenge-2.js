@@ -14,3 +14,19 @@
  
  GOOD LUCK :)
  */
+ 
+var teamJohnAverageScore = (89 + 120 + 103) / 3;
+console.log('johns score: ' + teamJohnAverageScore);
+var teamMikeAverageScore = (116 + 94 + 123) / 3;
+console.log('mikes score: ' + teamMikeAverageScore);
+var teamMarryAverageScore = (97 + 134 + 105) / 3;
+console.log('marry score: ' + teamMarryAverageScore);
+
+
+if (teamJohnAverageScore > teamMikeAverageScore && teamJohnAverageScore > teamMarryAverageScore) {
+	console.log('team John has the highest average score! Score: ' + teamJohnAverageScore);
+} else if (teamMikeAverageScore > teamJohnAverageScore && teamMikeAverageScore > teamMarryAverageScore) {
+	console.log('team Mike has the highest average score! Score: ' + teamMikeAverageScore);
+} else if (teamMarryAverageScore > teamJohnAverageScore && teamMarryAverageScore > teamMikeAverageScore) {
+	console.log('team Marry has the highest average score! Score: ' + teamMarryAverageScore);
+}
