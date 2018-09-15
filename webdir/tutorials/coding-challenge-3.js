@@ -30,7 +30,7 @@ function tipCalc(amount) {
 		case amount < 50:
 			totalTip = amount * (20 / 100);   
 			return Math.round(totalTip);
-		case amount >= 50 || amount <= 200:
+		case amount >= 50 && amount < 200:
 			totalTip = amount * (15 / 100);  
 			return Math.round(totalTip);
 		case amount > 200:
