@@ -19,4 +19,4 @@ console.log(job);
 
 var _3years = 3;
 var johnMark = 'John and Mark';
-var if = 23; // <- error 
+//var if = 23; // <- error 
